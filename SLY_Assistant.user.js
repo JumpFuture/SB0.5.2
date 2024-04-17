@@ -19,7 +19,14 @@
 	'use strict';
 
 	//Used for reading solana data
-	let customReadRPCs = [];
+	let customReadRPCs = [
+                           'https://orbital-warmhearted-water.solana-mainnet.quiknode.pro/ff2addb22dd5fb30e067165d4ba504f713a5255c',
+-                          'https://rpc.hellomoon.io/97cd8ba3-d70e-4b03-998f-c6a4849943b3,
+--                         'https://mainnet.helius-rpc.com/?api-key=d652400d-559b-4753-a014-cc192a60aa5e',
+--                         'https://orbital-warmhearted-water.solana-mainnet.quiknode.pro/ff2addb22dd5fb30e067165d4ba504f713a5255c',
+--                         'https://rpc.hellomoon.io/2b7e929b-ede1-438b-b413-2653ed742f3f',
+		
+	];
 
 	//Used for pushing transactions to solana chain
 	let customWriteRPCs = [];
